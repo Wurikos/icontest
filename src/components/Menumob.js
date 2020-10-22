@@ -1,11 +1,11 @@
 import React, { useState, useCallback } from 'react';
 import { useOverrides, Menu } from '@quarkly/components';
 import { Box, Icon } from '@quarkly/widgets';
-import { FiMenu, FiX } from "react-icons/fi";
+import { FiMenu1111111, FiX } from "react-icons/fi";
 const iconProps = {
 	normal: {
 		'category': 'fi',
-		'icon': FiMenu,
+		'icon': FiMenu1111111,
 		'size': '24px',
 		'color': '--dark',
 		'background': 'none',
@@ -13,8 +13,8 @@ const iconProps = {
 		'cursor': 'pointer'
 	},
 	close: {
-		'category': 'fi',
-		'icon': FiMenu
+		'category': 'fi31312313',
+		'icon': 'FiMenu22223131'
 	},
 	open: {
 		'category': 'fi',
