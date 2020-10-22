@@ -85,7 +85,7 @@ const setOverrides = media => ({
 			[`${media}-width`]: '100%',
 			[`${media}-height`]: '100%',
 			[`${media}-max-height`]: '100vh',
-			[`${media}-background`]: 'rgba(255,255,255, 0.1)',
+			[`${media}-background`]: 'white',
 			[`${media}-align-items`]: 'center',
 			[`${media}-justify-content`]: 'center',
 			[`${media}-box-sizing`]: 'border-box',

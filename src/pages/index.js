@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme } from "@quarkly/widgets";
+import { Theme, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { Override, Section } from "@quarkly/components";
 import * as Components from "components";
+import { MdFace } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<Helmet>
@@ -20,7 +21,13 @@ export default (() => {
 				</Override>
 			</Components.Menumob>
 		</Section>
-		<Components.Menuincomp />
+		<Components.Menuincomp>
+			<Override slot="menumob">
+				<Override slot="wrapper" md-opacity="0.1" />
+			</Override>
+		</Components.Menuincomp>
+		<Icon category="md" icon={MdFace} />
 		<Components.Iconbox />
+		<Components.Newcomp />
 	</Theme>;
 });
