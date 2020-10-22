@@ -21,5 +21,6 @@ export default (() => {
 			</Components.Menumob>
 		</Section>
 		<Components.Menuincomp />
+		<Components.Iconbox />
 	</Theme>;
 });
