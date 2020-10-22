@@ -1,7 +1,6 @@
 import React from 'react';
 import { useOverrides } from '@quarkly/components';
 import { Box, Text, Icon } from '@quarkly/widgets';
-import { BsDot } from "react-icons/bs";
 let overrides = {
 	'Timeline Line': {
 		kind: 'Box'
@@ -132,6 +131,7 @@ const TimelineItem = ({
 		[`${media}-left`]: styles[alignMobile].pointLeft,
 		[`${media}-right`]: styles[alignMobile].pointRight
 	};
+	const dot = "Dot";
 	return <Box
 		padding-left={styles[alignDesktop].itemPaddingLeft}
 		padding-right={styles[alignDesktop].itemPaddingRight}
@@ -154,7 +154,7 @@ const TimelineItem = ({
 			position="absolute"
 			size="40px"
 			category="bs"
-			icon={BsDot}
+			icon={"Bs" + dot}
 			{...override('Timeline Point', `Timeline ${numb} Point`)}
 		/>
 		      
